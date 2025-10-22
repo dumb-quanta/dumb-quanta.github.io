@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">[Your Name]</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="tech.html">My Tech</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home" class="hero">
+        <canvas id="bg-canvas"></canvas>
+        <div class="container">
+            <h1>Welcome, I'm [Your Name]</h1>
+            <p class="headline">[Your Headline - e.g., Aspiring Software Engineer]</p>
+            <a href="projects.html" class="cta-button">View My Work</a>
+        </div>
+    </header>
+    
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+        }
+    }
+    </script>
+    <script type="module" src="main.js"></script> 
+
+</body>
+</html>
